@@ -27,14 +27,7 @@
     flex-direction: row;
     
 }
-.search-bar{
-    display: flex;
-    width: 96%;
-    height: 50px;
-    position: relative;
-    margin: 2%;
-    background: #FFFFFF;
-}
+
 
 .pinkBall-01{
     display: flex;
@@ -59,35 +52,72 @@
     height: 100%;
     background:#555555;
     align-items: center;
+    justify-content: center;
 }
 .center-circle{
     display: flex;
     width: 133px;
     height: 143px;
-    left: 42%;
-    position: absolute;
     border-radius: 50%;
+    background-color: black;
     
-    background: #555555;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .master-text{
-    position: absolute;
+
 width: 261px;
 height: 62px;
-left: 34%;
-top: 54px;
+left: 17%;
+top: 63px;
 
 font-family: 'Risque';
 font-style: normal;
 font-weight: 400;
-font-size: 55px;
-line-height: 42px;
+font-size: 48px;
+line-height: 33px;
 
 color: #FFFFFF;
 
 }
 
-.input{
-    width: 40%;
+
+.search-pokemon{
+    display: flex;
+    height: 64px;
+    width: 132px;
+    border-radius: 150px 150px 0 0;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.type-chart{
+    display: flex;
+    height: 64px;
+    width: 132px;
+    border-radius: 0px 0px 150px 150px;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+.search-button{
+    border:none;
+    background-color: inherit;
+    color:white;
+    font-size: 18px;
+}
+.type-button{
+    border:none;
+    background-color: inherit;
+    color:white;
+    font-size: 17px;
+}
+.type-text{
+    text-decoration: none;
+}
+.search-text{
+    text-decoration: none;
 }
